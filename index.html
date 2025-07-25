@@ -11,25 +11,24 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
-<body class="px-4" style="font-family: 'Inter', sans-serif;">
-    <header class="max-w-[1140px] m-auto mt-5 border-3 px-4">
+<body style="font-family: 'Inter', sans-serif;">
+    <header class="max-w-[1140px] m-auto mt-5 px-4">
         <nav class="flex items-center justify-between">
             <div class="logo"><img class="w-4/5 hover:cursor-pointer" src="images/logo.png" alt=""></div>
-            <ul class=" gap-5 hidden sm:flex">
-                <li><a href="#" class="nav-link">Home</a></li>
-                <li><a href="#" class="nav-link"> Home</a></li>
-                <li><a href="#" class="nav-link"> Shop</a></li>
-                <li><a href="#" class="nav-link"> About Us</a></li>
+            <ul class=" gap-10 sm:flex sm:text-[1.35rem]">
+                <li class="hidden sm:block"><a href="#" class="nav-link font-bold"> Home</a></li>
+                <li class="hidden sm:block"><a href="#" class="nav-link text-[#8987A1]"> Shop</a></li>
+                <li class="hidden sm:block"><a href="#" class="nav-link text-[#8987A1]"> About Us</a></li>
                 <li><a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i> Card($65)</a></li>
             </ul>
         </nav>
     </header>
-    <div class="hero-section max-w-[1140px] m-auto flex flex-col-reverse sm:flex-row mt-20 py-10">
-            <div class="col sm:max-w-[50%] max-w-full">
-                <h1 style="font-family: 'Noto Serif', serif;" class="text-[2rem] md:text-[4rem]">
-                ALWAYS <span class="text-[#E95A08]"> FRESH FLOWERS</span> 
+    <div class="px-4 hero-section max-w-[1140px] m-auto flex flex-col-reverse sm:flex-row mt-5 sm:mt-20 py-10">
+            <div class="col sm:max-w-[50%] max-w-full mt-4">
+                <h1 style="font-family: 'Noto Serif', serif;" class="text-2xl sm:text-[2rem] md:text-[4rem] mb-3">
+                ALWAYS <span class="text-[#E95A08]"> FRESH <br> FLOWERS</span> 
             </h1>
-            <p class="text max-w-[570px] text-2xl font-medium text-[#00000085]">
+            <p class="max-w-[570px] text-[1rem] sm:text-[1.3rem] font-medium text-[#00000085]">
                 Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
             </p>
             </div>
@@ -37,11 +36,11 @@
                 <img src="images/hero-flower.png" alt="">
             </div>
     </div>
-    <div class="container max-w-[1140px] m-auto">
-        <h2 class="text-5xl font-bold text-center">
-            Our Plants
+    <div class="px-4 container max-w-[1140px] m-auto">
+        <h2 class="text-2xl sm:text-5xl font-bold text-center">
+            <span class="text-[#E95A08]">Our</span> Plants
         </h2>
-        <p class="font-medium max-w-[888px] text-center text-[1.4rem] m-auto">
+        <p class="font-medium max-w-[888px] text-[rgba(0,0,0,0.5)] text-center text-[1rem] sm:text-[1.4rem] m-auto">
             Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
         </p>
         <div class="card-area grid grid-cols-2 md:grid-cols-3 gap-y-5 gap-x-6 my-8 lg:grid-cols-4">
@@ -111,32 +110,32 @@
             </div>
         </div>
     </div>
-    <div class="container sm:flex max-w-[1140px] m-auto gap-16 my-20">
+    <div class="px-4 container sm:flex max-w-[1140px] m-auto gap-16 my-20">
         <div class="image-box relative">
             <img src="images/flower-store.png" alt="">
             <img class="absolute w-[250px] sm:top-[-15%] sm:right-[-15%] hidden sm:block " src="images/trusted-badge.png" alt="">
         </div>
         <div class="text-box sm:w-1/2">
-            <h2 class="section-title text-2xl sm:text-5xl mt-4">
-                Flower & Plants <br>Lover
+            <h2 class="section-title text-2xl sm:text-5xl mt-4 max-w-[440px]">
+                Flower & Plants Lover
             </h2>
             <ul class="ms-4 mt-2 gap-2 max-w-[490px] text-[rgba(0,0,0,0.5)]">
-                <li class="list-disc text-[1.38rem]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                <li class="list-disc text-[1.38rem]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                <li class="list-disc text-[1.38rem]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="list-disc text-[1rem] sm:text-[1.38rem]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="list-disc text-[1rem] sm:text-[1.38rem]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li class="list-disc text-[1rem] sm:text-[1.38rem]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
                 
             </ul>
         </div>
     </div>
-    <div class="deal-section m-auto max-w-[1140px] my-10">
-        <h2 class="text-[3rem] text-center">
+    <div class="px-4 deal-section m-auto max-w-[1140px] my-10">
+        <h2 class="text-2xl sm:text-[3rem] text-center">
            <span class="text-[#E95A08]"> Latest </span> Deals
         </h2>
-        <p class="max-w-[888px] m-auto text-center text-[1.35rem] font-normal text-[rgba(0,0,0,0.5)] mb-5">
+        <p class="max-w-[888px] m-auto text-center text-[1rem] sm:text-[1.35rem] font-normal text-[rgba(0,0,0,0.5)] mb-5">
             Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
         </p>
         <div class="deal-boxes flex flex-col gap-5 sm:flex-row">
-            <div class="deal-box-left flex flex-col gap-5 sm:w-1/2">
+            <div class="deal-box-left flex flex-col gap-5 sm:w-2/5">
                 <div class="box h-[200px] bg-[url(/images/deal-bloom.png)] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-2xl">
                     <h3 class="odeal-offer text-[1.25rem] font-bold text-white">
                         60% Off | Bloom Plant
@@ -154,9 +153,9 @@
                     </h4>
                 </div>
             </div>
-            <div class="deal-box-right sm:w-1/2">
+            <div class="deal-box-right sm:w-3/5">
                 <div class="box h-[200px] bg-[url(/images/deal-zabo.png)] bg-no-repeat bg-cover bg-center flex flex-col justify-center items-center rounded-2xl sm:h-[420px] sm:w-full">
-                    <h3 class="odeal-offer text-[1.25rem] font-bold text-white sm:text-[2.5rem]">
+                    <h3 class="odeal-offer text-[1.25rem] font-bold text-white text-center sm:text-[2.5rem]">
                         60% Off | Bloom Plant
                     </h3>
                     <h4 class="deal-now text-white underline">
@@ -165,64 +164,24 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- <div class="deal-boxes-area sm:flex gap-10">
-            <div class="deal-box-left sm:w-2/5">
-            <div class="deal-box bg-[url(/images/deal-ana.png)] bg-no-repeat bg-cover bg-center h-[200px]  flex flex-col gap-10">
-                <h3 class="deal-name">
-                    60% Off | Bloom Plant
-                </h3>
-                <h4 class="deal-now">Shop Now</h4>
-            </div>
-            <div class="deal-box bg-[url(/images/deal-bloom.png)] bg-no-repeat bg-cover bg-center h-[200px]">
-                <h3 class="deal-name">
-                    60% Off | Bloom Plant
-                </h3>
-                <h4 class="deal-now">Shop Now</h4>
-            </div>
-            </div>
-            <div class="deal-box-right sm:w-3/5 h-full">
-                <div class="deal-box bg-[url(/images/deal-zabo.png)] bg-no-repeat bg-cover bg-center bg-black opacity-50 h-[400px] justify-center items-center flex flex-col">
-                    <h3 class="deal-name text-white font-bold text-[3rem]">
-                        60% Off | Bloom Plant
-                    </h3>
-                    <h4 class="deal-now text-white underline">Shop Now</h4>
-                </div>
-            </div>
-        </div> -->
     </div>
-    <div class="bunch-section bg-[url(/images/news-letter-bg.png)] bg-no-repeat bg-cover bg-center h-[533px] flex flex-col justify-center items-center">
-        <div class="bunch-box max-w-[840px] m-auto">
-            <h2 class="section-title text-white text-[1.25rem] sm:text-5xl">
+    <div class="bunch-section bg-[url(/images/news-letter-bg.png)] bg-no-repeat bg-cover bg-center h-[350px] sm:h-[533px] flex flex-col justify-center items-center">
+        <div class="px-4 bunch-box w-full max-w-[840px] m-auto">
+            <h2 class="section-title text-white text-center text-[1.25rem] sm:text-5xl">
                 join the colorful Bunch
             </h2>
-            <form action="" class="flex mt-5">
+            <form action="" class="flex mt-5 w-full justify-center">
                 <input type="email" name="emain" placeholder="Write email" class=" w-3/4 bg-white p-3.5 outline-none">
                 <input type="submit" value="Subscribe" class=" py-[15px] px-[35px] bg-amber-600 text-white">
             </form>
         </div>
     </div>
 
-    <footer class="py-12">
+    <footer class="py-12 px-4">
         <div class="footer-section max-w-[1140px] m-auto sm:flex justify-between">
             <div class="col max-w-[350px]">
                 <img class="mb-5" src="images/logo.png" alt="logo image">
-                <p class="text-[1.35rem] text-[rgba(0,0,0,0.5)]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+                <p class="sm:text-[1.35rem] text-[rgba(0,0,0,0.5)]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
             </div>
             <div class="col mb-5">
                 <ul class="flex flex-col gap-5 sm:gap-8 text-[rgba(107,114,128,1)]">
