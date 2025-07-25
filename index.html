@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="css/tailwind.css">
 </head>
-<body class="px-4">
+<body class="px-4" style="font-family: 'Inter', sans-serif;">
     <header class="max-w-[1140px] m-auto mt-5 border-3 px-4">
         <nav class="flex items-center justify-between">
             <div class="logo"><img class="w-4/5 hover:cursor-pointer" src="images/logo.png" alt=""></div>
@@ -23,7 +26,7 @@
     </header>
     <div class="hero-section max-w-[1140px] m-auto flex flex-col-reverse sm:flex-row mt-20 py-10">
             <div class="col sm:max-w-[50%] max-w-full">
-                <h1 class="text-[2rem] md:text-[4rem]">
+                <h1 style="font-family: 'Noto Serif', serif;" class="text-[2rem] md:text-[4rem]">
                 ALWAYS <span class="text-[#E95A08]"> FRESH FLOWERS</span> 
             </h1>
             <p class="text max-w-[570px] text-2xl font-medium text-[#00000085]">
@@ -214,5 +217,38 @@
             </form>
         </div>
     </div>
+
+    <footer class="py-12">
+        <div class="footer-section max-w-[1140px] m-auto sm:flex justify-between">
+            <div class="col max-w-[350px]">
+                <img class="mb-5" src="images/logo.png" alt="logo image">
+                <p class="text-[1.35rem] text-[rgba(0,0,0,0.5)]">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+            </div>
+            <div class="col mb-5">
+                <ul class="flex flex-col gap-5 sm:gap-8 text-[rgba(107,114,128,1)]">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="col mb-5">
+                <ul class="flex flex-col gap-5 sm:gap-8 text-[rgba(107,114,128,1)]">
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Help Center</a></li>
+                </ul>
+            </div>
+             <div class="col flex sm:justify-center items-start gap-3">
+                <a href="#"><img class="w-[50px]" src="images/icon-linkedin.png" alt=""></a>
+                <a href="#"><img class="w-[50px]" src="images/twitter-logo-2 3.png" alt=""></a>
+                <a href="#"><img class="w-[50px]" src="images/icon-facebook.png" alt=""></a>
+                <a href="#"><img class="w-[50px]" src="images/icon-youtube.png" alt=""></a>
+            </div> 
+        </div>
+    </footer>
 </body>
 </html>
